@@ -53,6 +53,7 @@ int main()
         int i = 0;
         i++;
 
+        std::cout << "Симуляция работы датчика HC-SR04" << std::endl;
         std::cout << "Ваше расстояние: " << result << " метров";
 
         std::cout << std::endl;
